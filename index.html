@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azahara — Desarrolladora Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <span class="nav-logo">Azahara</span>
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre mí</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="nav-hamburger" id="hamburger" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- MENÚ MÓVIL -->
+    <div class="nav-mobile" id="navMobile">
+        <a href="#sobre" class="nav-m-link">Sobre mí</a>
+        <a href="#skills" class="nav-m-link">Skills</a>
+        <a href="#proyectos" class="nav-m-link">Proyectos</a>
+        <a href="#formacion" class="nav-m-link">Formación</a>
+        <a href="#contacto" class="nav-m-link">Contacto</a>
+    </div>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-disponible">
+            <span class="hero-dot"></span>
+            Disponible para trabajar
+        </div>
+
+        <p class="hero-intro">Desarrolladora Web · DAW 2026</p>
+
+        <h1>
+            Construyendo proyectos y <em>aprendiendo</em> cada día.
+        </h1>
+
+        <div class="hero-bottom">
+            <p class="hero-desc">
+                Acabo de terminar DAW y ahora estoy aprendiendo React mientras sigo desarrollando proyectos y ampliando
+                mis conocimientos en desarrollo web.
+            </p>
+            <div class="hero-acciones">
+                <a href="#proyectos" class="btn btn-fill">Ver proyectos</a>
+                <a href="" download="" class="btn btn-line">
+                    ↓ Descargar CV
+                </a>
+                <a href="#contacto" class="btn btn-line">Contacto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre">
+        <div class="sobre-left">
+            <p class="section-eyebrow">Sobre mí</p>
+            <div class="sobre-foto">
+                <img src="./img/foto.jpg" alt="Foto Azahara">
+                <div class="sobre-foto-ring"></div>
+            </div>
+            <div class="sobre-datos">
+                <div class="dato">
+                    <span class="dato-label">Ubicación</span>
+                    <span class="dato-value">📍 Utrera, Sevilla, España</span>
+                </div>
+                <div class="dato">
+                    <span class="dato-label">Disponibilidad</span>
+                    <span class="dato-value">Inmediata</span>
+                </div>
+                <div class="dato">
+                    <span class="dato-label">Formación</span>
+                    <span class="dato-value">CFGS DAW</span>
+                </div>
+                <div class="dato">
+                    <span class="dato-label">Idiomas</span>
+                    <span class="dato-value">ES · EN · PT</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sobre-right">
+            <h2>Hola, soy<br>Azahara.</h2>
+            <p class="sobre-p">
+                Terminé DAW recientemente y durante estos dos años he trabajado con tecnologías como HTML, CSS,
+                JavaScript,
+                Java, Laravel,
+                PHP, Angular, Wordpress y bases de datos.
+            </p>
+            <p class="sobre-p">
+                Me gusta aprender haciendo proyectos y resolviendo errores que van apareciendo durante el desarrollo.
+                Cuando algo no funciona, intento entender la causa antes de pedir ayuda, pero también entiendo cuándo es
+                más eficiente apoyarme en otros.
+            </p>
+            <p class="sobre-p">
+                Actualmente estoy ampliando mis conocimientos en React mediante proyectos personales y formación
+                continua. Mi objetivo es seguir creciendo como desarrolladora y explorar tecnologías como Node.js, .NET
+                y
+                Python.
+            </p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="skills-top">
+            <p class="section-eyebrow" style="margin-bottom:0">Habilidades</p>
+            <h2>Con lo que trabajo</h2>
+        </div>
+        <div class="skills-cols">
+            <div class="skill-col">
+                <p class="skill-col-title">Frontend</p>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3 / SASS</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+            <div class="skill-col">
+                <p class="skill-col-title">Backend</p>
+                <ul class="skill-list">
+                    <li>PHP</li>
+                    <li>MySQL / PostgreSQL</li>
+                    <li>APIs REST</li>
+                    <li>Laravel</li>
+                    <li>Spring Boot</li>
+                    <li>Java</li>
+                    <li>WordPress</li>
+                    <li>Divi (WordPress Builder)</li>
+                </ul>
+            </div>
+            <div class="skill-col">
+                <p class="skill-col-title">Herramientas</p>
+                <ul class="skill-list">
+                    <li>Git / GitHub</li>
+                    <li>Figma</li>
+                    <li>VS Code</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>Netlify</li>
+                    <li>Docker (básico)</li>
+                </ul>
+            </div>
+            <div class="skill-col">
+                <p class="skill-col-title">Soft Skills</p>
+                <ul class="skill-list">
+                    <li>Trabajo en equipo</li>
+                    <li>Atención al detalle</li>
+                    <li>Aprendizaje continuo</li>
+                    <li>Comunicación clara</li>
+                    <li>Adaptabilidad</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- APRENDIENDO -->
+    <div class="ahora-wrap">
+        <div class="ahora-inner">
+            <div class="ahora-col">
+                <p class="ahora-label">Aprendiendo ahora</p>
+                <div class="ahora-items">
+                    <span class="ahora-item ahora-activo">
+                        <span class="ahora-dot"></span>React
+                    </span>
+                </div>
+            </div>
+            <div class="ahora-sep"></div>
+            <div class="ahora-col">
+                <p class="ahora-label">En el radar — próximamente</p>
+                <div class="ahora-items">
+                    <span class="ahora-item">Node.js</span>
+                    <span class="ahora-item">.NET</span>
+                    <span class="ahora-item">Python</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+        <div class="proy-head">
+            <div>
+                <p class="section-eyebrow">Proyectos</p>
+                <h2>Lo que he creado</h2>
+            </div>
+            <p class="proy-head-note">2 proyectos</p>
+        </div>
+
+        <div class="proy-lista">
+            <a href="https://residencia-huellas-felices.up.railway.app" target="_blank" class="proy-item ">
+                <span class="proy-n">01</span>
+                <div class="proy-info">
+                    <p class="proy-nombre">Residencia Huellas Felices</p>
+                    <p class="proy-desc">Aplicación web para gestionar una residencia canina: reservas, cuidados
+                        diarios, avisos, correos automáticos y facturación. Sistema de roles para clientes, cuidadores y
+                        administradores.</p>
+                    <p class="proy-desc">Desplegado en producción con Railway.</p>
+                    <div class="proy-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">Laravel</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">Tailwind</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Figma</span>
+                    </div>
+                </div>
+                <span class="proy-arrow">↗</span>
+            </a>
+
+            <a href="https://buscador-heroes-overwatch.netlify.app/#/bienvenida" target="_blank" class="proy-item">
+                <span class="proy-n">02</span>
+                <div class="proy-info">
+                    <p class="proy-nombre">Overwatch Heroes API Explorer</p>
+                    <p class="proy-desc">
+                        Aplicación desarrollada en Angular como parte de mi formación en desarrollo web. Permite buscar
+                        y consultar información de héroes de Overwatch mediante una API REST, implementando routing,
+                        consumo de API y búsqueda dinámica.
+                    </p>
+
+                    <p class="proy-desc">
+                        Desplegado en Netlify e integrado con una API externa, siguiendo una arquitectura basada en
+                        componentes. La API utilizada ofrece traducción parcial de los datos, por lo que algunos campos
+                        pueden aparecer en inglés y otros en español según disponibilidad.
+                    </p>
+                    </p>
+                    <div class="proy-tags">
+                        <span class="tag">Angular</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">Netlify</span>
+                    </div>
+                </div>
+                <span class="proy-arrow">↗</span>
+            </a>
+
+            <a href="#" class="proy-item proy-coming">
+                <span class="proy-n">03</span>
+
+                <div class="proy-info">
+                    <p class="proy-nombre">Próximamente</p>
+                    <p class="proy-desc">
+                        Nuevos proyectos en desarrollo. Actualmente trabajando en ampliar mi portfolio con nuevas
+                        aplicaciones web.
+                    </p>
+                    <div class="proy-tags">
+                        <span class="tag">En progreso</span>
+                    </div>
+                </div>
+
+                <span class="proy-arrow">⌛</span>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section id="formacion">
+        <div class="form-sticky">
+            <p class="section-eyebrow">Formación</p>
+            <h2>Mi camino<br>hasta aquí</h2>
+        </div>
+
+        <div class="form-items">
+            <div class="form-item">
+                <span class="form-fecha">2024 — 2026</span>
+                <div>
+                    <p class="form-titulo">FP Superior · Desarrollo de Aplicaciones Web</p>
+                    <p class="form-org">IES Ruiz Gijón · Utrera, Sevilla</p>
+                    <p class="form-texto">
+                        Ciclo formativo centrado en el desarrollo web completo: frontend, backend, bases de datos,
+                        despliegue y metodologías ágiles.
+                    </p>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <span class="form-fecha">Proyecto</span>
+                <div>
+                    <p class="form-titulo">Residencia Huellas Felices</p>
+                    <p class="form-org">Proyecto fin de ciclo</p>
+                    <p class="form-texto">
+                        Aplicación web para gestionar una residencia canina: reservas, cuidados diarios, avisos,
+                        correos automáticos y facturación. Sistema de roles para clientes, cuidadores y administradores.
+                    </p>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <span class="form-fecha">oct. 2025 — dic. 2025</span>
+                <div>
+                    <p class="form-titulo">Prácticas de Desarrollo Web</p>
+                    <p class="form-org">inventtatte</p>
+                    <p class="form-texto">
+                        Durante mis prácticas del ciclo formativo DAW trabajé en el desarrollo y mantenimiento de
+                        páginas web en WordPress. Utilicé Divi para la maquetación, realicé ajustes con CSS y participé
+                        en la gestión de plugins y contenido en distintos sitios web.
+                    </p>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <p class="form-fecha">Continuo</p>
+                <div>
+                    <p class="form-titulo">Formación autodidacta</p>
+                    <p class="form-org">OpenWebinars · Udemy · Cursos online · Proyectos personales</p>
+                    <p class="form-texto">
+                        Formación continua a través de plataformas como OpenWebinars, Udemy y otros recursos online.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <div class="contacto-inner">
+            <p class="section-eyebrow">Contacto</p>
+            <h2 class="contacto-titulo">¿Trabajamos<br><span>juntos?</span></h2>
+            <p class="contacto-p">
+                Actualmente busco una oportunidad para incorporarme a un equipo donde seguir creciendo como
+                desarrolladora y aportar todo lo que he aprendido hasta ahora.
+                Si crees que encajo, escríbeme.
+            </p>
+            <a href="mailto:azaharaparrales@gmail.com" class="contacto-email">azaharaparrales@gmail.com</a>
+            <div class="social-row">
+                <a href="www.linkedin.com/in/maria-azahara-parrales-cuevas" class="social-btn" target="_blank">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect x="2" y="9" width="4" height="12" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/Eidrial" class="social-btn" target="_blank">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                        <path d="M9 18c-4.51 2-5-2-7-2" />
+                    </svg>
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <span class="footer-logo">Azahara</span>
+        <p>Portfolio personal · 2026</p>
+    </footer>
+</body>
+
+</html>
