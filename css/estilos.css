@@ -618,6 +618,26 @@
       margin-bottom: 1rem;
   }
 
+  .proy-desc-extra {
+      font-size: 0.86rem;
+      color: var(--rose);
+      font-weight: 300;
+      line-height: 1.65;
+      max-width: 520px;
+      margin-bottom: 1rem;
+      font-style: italic;
+  }
+
+  .proy-nota {
+      display: block;
+      margin-top: 4px;
+      font-size: 0.75rem;
+      font-weight: 400;
+      opacity: 0.65;
+      color: #a0a0a0;
+      margin-bottom: 1rem;
+  }
+
   .proy-tags {
       display: flex;
       flex-wrap: wrap;
